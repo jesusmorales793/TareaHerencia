@@ -47,4 +47,11 @@ public class Empleado {
     public String trabajoHoraSalida() {
         return "Hoy salgo a las 3pm y soy empleado";
     }
+
+    @Override
+    public String toString() {
+        return "Empleado{" + "nombre=" + nombre + ", cedula=" + cedula + ", badgeNum=" + badgeNum + ", edad=" + edad + '}';
+    }
+    
+   
 }
